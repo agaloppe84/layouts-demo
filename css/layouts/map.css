@@ -1,0 +1,18 @@
+/* TODO: design a flexbox layout with sticky map */
+
+.map-layout {
+  display: flex;
+  align-items: stretch;
+}
+
+.map-container {
+  background-color: pink;
+}
+
+
+#map {
+  width: 400px;
+  height: 100vh;
+  position: sticky !important;
+  top: 0;
+}
